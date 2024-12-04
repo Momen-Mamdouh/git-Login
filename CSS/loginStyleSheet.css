@@ -1,0 +1,113 @@
+:root{
+    --body-bg-color: #24353f;
+    --main-font-color: #17a2b8;
+    --dark-color: rgba(0, 0, 0, 1);
+    --light-color: rgb(255, 255, 255);
+    --input-text-color: #ced4da;
+    --input-focus-color: #80bdff;
+    
+
+    --main-font: "Titillium Web", sans-serif;
+    
+    --main-boxShadow: -5px 2px 54px -9px var(--dark-color);
+
+    --logout-btn-color: #ffc107;
+
+}
+
+
+body{
+    background-color: var(--body-bg-color);
+    color: var(--main-font-color);
+    font-family: var(--main-font);
+    
+}
+
+
+
+/**========================== START HEADING-SECTION====================== */
+.welcome-section .container{
+        box-shadow: var( --main-boxShadow);
+        width: 55%;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, .25);
+}
+
+.inner-inputs{
+    width: 90%;   
+}
+.inner-inputs input{
+    background-color: var(--body-bg-color);
+    border: 1px solid var(--input-text-color); 
+    /* color: var(--input-text-color) !important;  */
+}
+
+::placeholder{
+    color: var(--input-text-color) !important;
+    opacity: 1; 
+}
+/* ******* -webkit-security-text ******** */
+
+.inner-inputs input:focus {
+    background-color: var(--body-bg-color);
+    box-shadow: 0 0 0 0 transparent ;
+    outline: 1px solid var(--input-focus-color);
+}
+
+
+.sign-btn{
+    width: 100%;
+    color: var(--main-font-color);
+    background-color: var(--body-bg-color);
+    border: 1px solid var(--main-font-color);
+}
+
+.sign-btn:hover{
+    color: var(--light-color);
+    background-color: var(--main-font-color);
+}
+
+.welcome-content a, .welcome-content p{
+    text-decoration: none;
+    color: var(--light-color);       
+}
+
+.welcome-content a:hover{
+    text-decoration: underline;
+}
+
+
+/**========================== END HEADING-SECTION====================== */
+
+
+
+/* !==========================SIGNUPhtml SECTION============================ */
+
+
+
+
+/* !==========================SIGNUPhtml SECTION============================ */
+
+
+
+
+
+
+
+
+/* !==========================HOMEhtml SECTION============================ */
+
+/**============= START NAVBAR(HOMEPAGE)-SECTION============== */
+.myNavbar{
+    box-shadow: var( --main-boxShadow);
+}
+.logoutBtn{
+    border: 1px solid var(--logout-btn-color);
+    color: var(--input-text-color);
+    cursor: pointer;
+}
+/**============= START NAVBAR(HOMEPAGE)-SECTION============== */
+
+/* !==========================HOMEhtml SECTION============================ */

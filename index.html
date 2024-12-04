@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="icon" href="./images/loginIcon.png">
+
+    <!--?=================================  Titillium Web-Font=================================  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bree+Serif&family=Imperial+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <!--?=================================  Titillium Web-Font=================================  -->
+
+    <!--? ================================STYLESHEETS=====================================  -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/loginStyleSheet.css">
+    <!--? ================================STYLESHEETS=====================================  -->
+
+</head>
+
+<body>
+
+<!--*======================START LOGIN-SECTION==========================  -->
+      <section class="welcome-section">
+            <div class="container my-5">
+                  <div class="welcome-content  py-5  text-center d-flex justify-content-center flex-column">
+                            <div class="inner-heading px-3">
+                              <h1>Smart Login System</h1>
+                            </div>
+
+                            <div class="inner-inputs m-auto  py-3 " >
+                              
+                              <input autocomplete="on"  type="email" class="form-control my-3 text-white loginEmail" placeholder="Enter your Email" >
+                              <input autocomplete="on"  type="password" pattern="" class="form-control  my-3 text-white loginPassword" placeholder="Enter your Password" >
+
+                              <button class="btn  sign-btn signin-btn">Login</button>
+                              <p class=" p-3 text-center dataState"></p>
+                            </div>
+
+                            <p >Don't have an account? <a class="px-1" href="./signUp.html">Sign Up</a></p>
+
+                      </div>
+                  </div>
+            </div>
+      </section>
+<!--*======================END LOGIN-SECTION==========================  -->
+
+
+    <!--! ==========================================SCRIPTING==============================  -->
+    <script src="JS/all.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/login.js"></script>
+    <!--! ==========================================SCRIPTING==============================  -->
+</body>
+
+</html>
+
